@@ -5,7 +5,7 @@ def caesar_encrypt(plain_text):
   cipher_text = ''
   plain_text = plain_text.upper()
   for c in plain_text:
-    if c == ' ':  # Handle spaces
+    if c == ' ':
       cipher_text += c
       continue
     index = ALPHABET.find(c)
